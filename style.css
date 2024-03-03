@@ -1,0 +1,29 @@
+body {
+    font-family: calibri,  sans-serif; /* keluarga font */
+    font-size: 11px; /* Ukuran font utama pada tag <p></p> */
+    background-color: #e1f5f8; /* Warna latar belakang laman web */
+    color: #ffd7d7; /* Warna teks */ 
+}
+h1 {
+    color: #d578ec; /* Warna tajuk (header)*/
+    font-size: 50px; /* Ukuran font tajuk (header) */
+    font-family: Georgia, serif; /* Keluarga font yang digunakan di tajuk (header) */
+}
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h1:hover {
+    animation: color-change 3s infinite;
+}
